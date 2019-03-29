@@ -17,9 +17,10 @@ h2 {
 }
 section h1:first-child {
     width: fit-content;
-    position: relative;
+    position: relative;;
     color: black;
-    left: 10%
+    left: 10%;
+    font-size: 45px;
 }
 
 /* HEADER */
@@ -116,7 +117,7 @@ section.one {
 }
 
 section.one .section_content {
-    height: 100%;
+    height: 90%;
     width: 65%;
     margin: 0 auto;
     display: flex;
@@ -124,8 +125,8 @@ section.one .section_content {
 }
 
 .section_content h3 {
-    line-height: 40px;
-    font-size: 22px;
+    line-height: 42px;
+    font-size: 28px;
     font-weight: bold;
     color: black;
 }
@@ -137,7 +138,7 @@ section.one .section_content {
 
 /* SECTION TWO */
 section.two {
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     padding: 2.5rem 0rem 4rem;
 }
@@ -448,13 +449,15 @@ section.three .row {
 }
 
 .project h2 {
-    width: 5rem;
+    font-size: 28px;
+    width: 5.75rem;
     color: black;
     border-bottom: 2px solid black;
 }
 
 .project p {
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 40px;
 }
 
 .project_support {
