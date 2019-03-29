@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ndubs18/biomend/issues"
   },
-  "homepage": "https://github.com/ndubs18/biomend#readme"
+  "homepage": "https://github.com/ndubs18/biomend#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }

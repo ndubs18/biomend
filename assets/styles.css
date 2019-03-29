@@ -39,7 +39,8 @@ nav {
     padding: 1rem 3rem;
     display: flex;
     justify-content: space-between;
-    background: white
+    background: white;
+    position: absolute;
 }
 
 
@@ -73,8 +74,10 @@ ul li a:hover {
 
 .headerContent {
     width: 80%;
+    height: 100%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
 }
 
 .waterDrop {
@@ -143,7 +146,7 @@ section.two .section_content {
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
