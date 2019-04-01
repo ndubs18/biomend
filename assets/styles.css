@@ -4,6 +4,7 @@
     margin: 0;
     font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
+
     
 }
 
@@ -21,7 +22,7 @@ section h1:first-child {
     position: relative;;
     color: black;
     left: 10%;
-    font-size: 45px;
+    font-size: 3.2vw;
 }
 
 /* HEADER */
@@ -45,11 +46,16 @@ nav {
     position: absolute;
 }
 
+header .headerContent .waterDrop, .cycle {
+  padding-top: 4rem;
+}
+
 
 .brand img {
     width: 7rem;
     height: 2.75rem;
 }
+
 
 ul {
     width: 35%;
@@ -126,10 +132,10 @@ section.one .section_content {
 }
 
 .section_content h3 {
-    line-height: 42px;
-    font-size: 28px;
-    font-weight: bold;
-    color: black;
+    line-height: 50px;
+    font-weight: 550;
+    font-size: 2vw;
+    color: black
 }
 
 .section_content i {
@@ -139,22 +145,25 @@ section.one .section_content {
 
 /* SECTION TWO */
 section.two {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     padding: 2.5rem 0rem 4rem;
+}
+
+section.two h1 {
+  margin-bottom: 1.25rem;
 }
 
 section.two .section_content {
     height: 100%;
     width: 100%;
-    margin: 0 auto;
-    padding: 2rem 2rem;
+    margin: 2 auto;
+    padding: 1rem 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     
-
 }
 /* CARDS */
 
@@ -475,4 +484,128 @@ section.three .row {
 
 
 /* SECTION 3 */
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+@media only screen and (max-width: 920px) {
+
+  section h1:first-child {
+    position: static;
+    margin: 0 auto 1.5rem;
+    font-size: 2rem;
+  }
+  section.one .section_content {
+    margin: 0;
+    width: 100%;
+    padding: 0 4rem;
+  }
+  /* HEADER */
+  header {
+    height: auto;
+  }
+
+  .cycle h1 {
+    font-size: 40px;
+  }
+
+
+  header nav ul {
+    display: none;
+  }
+
+  nav .hamburger {
+    display: block;
+  }
+
+  .headerContent {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
+  }
+
+  .headerContent .waterDrop {
+    display: none;
+
+  }
+
+   /* HEADER */
+
+   /* SECTION ONE */
+
+   section.one {
+     height: auto;
+   }
+  .section_content h3 {
+  font-size: 1.05rem;
+}
+    /* SECTION ONE */
+
+   /* SECTION TWO */
+
+   section.two {
+    height: auto;
+  }
+
+   section.two .section_content {
+     flex-direction: column;
+     height: auto;
+     padding: 0 3rem;
+   }
+
+   .my-2 {
+     min-width: 200px;
+   }
+
+
+   /* SECTION TWO */
+
+
+   /* SECTION THREE */
+
+   section.three .section_content {
+     padding-top: 2rem;
+     margin: 0;
+     width: 100%
+   }
+   section.three .section_content .row {
+     flex-direction: column;
+   }
+
+   .project { 
+     margin: 0 auto;
+     width: 100%
+   }
+
+   .project_support {
+     margin: 3rem auto;
+     height: 100%;
+     width: 100%
+   }
+
+   /* SECTION THREE */
+}
+
+
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+
+@media screen and (min-width:1200px) {
+  body { font-size:110%; } /* Increase the font size */
+}
+@media screen and (min-width:1400px) {
+  html { padding:0 15%; } /* Reduce the container width */
+}
+@media screen and (min-width:1600px) {
+  body { font-size:125%; } /* Increase the font size */
+}
+@media screen and (min-width:1800px) {
+  html { padding:0 20%; } /* Reduce the container width */
+}
 
