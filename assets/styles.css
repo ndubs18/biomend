@@ -13,11 +13,13 @@ html {
 h1 {
     font-size: 32px;
     color: black;
-    font-weight: bolder; 
+    font-weight: bold; 
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
     font-weight: bold;
+    font-family: 'Lato', sans-serif;
 }
 
 section h1:first-child {
@@ -35,7 +37,7 @@ section h1:first-child {
 header {
     height: 85vh;
     width: 100%;
-    background: rgba(0,0,0,.1);
+    background: rgba(0,0,0,.05);
 }
 
 nav {
@@ -55,10 +57,9 @@ header .headerContent .waterDrop, .cycle {
 
 
 .brand img {
-    width: 7rem;
-    height: 2.75rem;
+    width: 7.7rem;
+    height: 3.1rem;
 }
-
 
 ul {
     width: 35%;
@@ -191,7 +192,7 @@ p, h1 {
     text-transform: uppercase;
   }
   .ff-serif {
-    font-family: 'Lora', serif;
+    font-family: 'Lato', sans-serif;
   }
   
   .font-weight-normal {
@@ -201,8 +202,8 @@ p, h1 {
     font-weight: 500;
   }
   
-    .lts-1px {
-     letter-spacing: 1px;
+  .lts-1px {
+    letter-spacing: 1px;
   }
   .lts-2px {
     letter-spacing: 2px;
@@ -440,7 +441,7 @@ section.three {
 
     width: 100%;
     padding: 2.5rem 0 4rem;
-    background: rgba(0,0,0,.1);
+    background: rgba(0,0,0,.05);
 }
 
 section.three .section_content {
@@ -487,142 +488,12 @@ nav .hamburger {
   display: none;
 }
 
-
-
-
+/* SECTION 3 */
+/* SECTION 3 */
 /* SECTION 3 */
 
 
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
 
-@media only screen and (max-width: 1700px) {
-  .section_content h3 {
-    line-height: 60px;
-  }
-}
-
-
-@media only screen and (max-width: 920px) {
-
-  section h1:first-child {
-    position: static;
-    margin: 0 auto 1.5rem;
-    font-size: 2rem;
-  }
-  section.one .section_content {
-    margin: 0;
-    width: 100%;
-    padding: 0 4rem;
-  }
-  /* HEADER */
-  header {
-    height: auto;
-  }
-
-  .cycle h1 {
-    font-size: 40px;
-  }
-
-
-  header nav ul {
-    display: none;
-  }
-
-  /* TODO Hamburger menu */
-
-  nav .hamburger {
-    height: fit-content;
-    display: block;
-  }
-
-  nav .hamburger span{
-    display: block;
-    height: 2px;
-    width: 40px;
-    background: rgba(0,0,0,.5);
-    margin-bottom: 9px;
-  }
-
-  /* TODO Hamburger menu */
-
-  .headerContent {
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 5rem;
-  }
-
-  .headerContent .waterDrop {
-    display: none;
-
-  }
-
-   /* HEADER */
-
-   /* SECTION ONE */
-
-   section.one {
-     height: auto;
-   }
-  .section_content h3 {
-  font-size: 1.05rem;
-  line-height: 50px;
-}
-    /* SECTION ONE */
-
-   /* SECTION TWO */
-
-   section.two {
-    height: auto;
-  }
-
-   section.two .section_content {
-     flex-direction: column;
-     height: auto;
-     padding: 0 2rem;
-   }
-
-   .my-2 {
-     min-width: 200px;
-   }
-
-
-   /* SECTION TWO */
-
-
-   /* SECTION THREE */
-
-   section.three .section_content {
-     padding-top: 2rem;
-     margin: 0;
-     width: 100%
-   }
-   section.three .section_content .row {
-     flex-direction: column;
-   }
-
-   .project { 
-     margin: 0 auto;
-     width: 100%
-   }
-
-   .project_support {
-     margin: 3rem auto;
-     height: 100%;
-     width: 100%
-   }
-
-   /* SECTION THREE */
-}
-
-
-
-
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
 
 
 
@@ -723,4 +594,148 @@ nav .hamburger {
   box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0 );
   background: rgba( 20, 224, 133, 1 );
 }
+
+footer {
+  height: 10rem;
+  width: 100%;
+  background: black;
+}
+
+footer .footer_content {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  background: white;
+}
+
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1700px) {
+  .section_content h3 {
+    line-height: 60px;
+  }
+}
+
+
+@media only screen and (max-width: 920px) {
+
+  section h1:first-child {
+    position: static;
+    margin: 0 auto 1.5rem;
+    font-size: 2rem;
+  }
+  section.one .section_content {
+    margin: 0;
+    width: 100%;
+    padding: 0 4rem;
+  }
+  /* HEADER */
+  header {
+    height: auto;
+  }
+
+  .cycle h1 {
+    font-size: 40px;
+  }
+
+
+  header nav ul {
+    display: none;
+  }
+
+  /* TODO Hamburger menu */
+
+  nav .hamburger {
+    height: 100%;
+    display: block;
+    padding: 1rem 0;
+  }
+
+  nav .hamburger span{
+    display: block;
+    height: 2px;
+    width: 40px;
+    background: rgba(0,0,0,.5);
+    margin-bottom: 9px;
+  }
+
+  /* TODO Hamburger menu */
+
+  .headerContent {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
+  }
+
+  .headerContent .waterDrop {
+    display: none;
+
+  }
+
+   /* HEADER */
+
+   /* SECTION ONE */
+
+   section.one {
+     height: auto;
+   }
+  .section_content h3 {
+  font-size: 1.05rem;
+  line-height: 50px;
+}
+    /* SECTION ONE */
+
+   /* SECTION TWO */
+
+   section.two {
+    height: auto;
+  }
+
+   section.two .section_content {
+     flex-direction: column;
+     height: auto;
+     padding: 0 2rem;
+   }
+
+   .my-2 {
+     min-width: 200px;
+   }
+
+
+   /* SECTION TWO */
+
+
+   /* SECTION THREE */
+
+   section.three .section_content {
+     padding-top: 2rem;
+     margin: 0;
+     width: 100%
+   }
+   section.three .section_content .row {
+     flex-direction: column;
+   }
+
+   .project { 
+     margin: 0 auto;
+     width: 100%
+   }
+
+   .project_support {
+     margin: 3rem auto;
+     height: 100%;
+     width: 100%
+   }
+
+   /* SECTION THREE */
+}
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
 
