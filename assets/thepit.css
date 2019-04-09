@@ -11,7 +11,7 @@ header.thePit {
 }
 
 .headerContent.thePit {
-    padding-top: 8rem;
+    padding: 8rem 0 2.75rem;
     display: block;
     align-items: initial;
     width: 70%;

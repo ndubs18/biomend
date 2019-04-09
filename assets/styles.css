@@ -322,7 +322,7 @@ p, h1 {
     margin-bottom: 1rem;
   }
   .my-2 {
-      margin: 0rem 1rem 2rem;
+      margin: 2rem 1rem 3rem;
       flex: 1;
   }
   .my-3 {
@@ -348,6 +348,7 @@ p, h1 {
   }
   .mb-1 {
     margin-bottom: 1rem;
+    line-height: 25px;
   }
   .mb-2 {
     margin-bottom: 2rem;
@@ -636,7 +637,14 @@ footer .footer_content ul h3 {
 .copyright {
   display: absolute;
   left: 0;
-  bottom: 0
+  bottom: 0;
+  padding-left: .55rem;
+  background: rgba(0,0,0,.2);
+}
+
+.footer_brand {
+  position: relative;
+  bottom: 7px;
 }
 
 .contact {
