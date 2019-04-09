@@ -23,7 +23,7 @@ header.thePit {
 }
 
 .headerContent.thePit h1 {
-    margin: 1.5rem 0;
+    margin: 1rem 0 1.5rem;
 }
 
 .headerContent.thePit p {
@@ -33,5 +33,13 @@ header.thePit {
 
 .headerContent.thePit {
     line-height: 2.5rem;
+}
+
+
+/* THE CONFERENCE */
+
+.headerContent.thePit h3 {
+    text-align: center;
+    margin: 1rem, 0, .75rem;
 }
 
