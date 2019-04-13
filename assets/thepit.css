@@ -43,3 +43,24 @@ header.thePit {
     margin: 1rem, 0, .75rem;
 }
 
+.pdfs {
+    height: 7rem;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center
+}
+
+.pdfs a {
+    text-decoration: none;
+    margin: 0 1rem 1rem;
+    color: black;
+    border-bottom: 1.5px solid black;
+    padding-bottom: .5rem;
+}
+
+.pdfs a:hover {
+    color: rgba( 28, 227, 125, 0.5 );
+    border-color: rgba( 28, 227, 125, 0.5 );
+}
+
+

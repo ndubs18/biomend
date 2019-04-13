@@ -715,8 +715,12 @@ footer .footer_content ul h3 {
 
 
   header nav ul {
-    display: none;
+   display: none;
   }
+
+  header nav ul li {
+    opacity: 0;
+   }
 
   /* Hamburger menu */
 
@@ -747,12 +751,15 @@ footer .footer_content ul h3 {
    display: block;
    text-align: center;
    margin: 0 auto;
+   opacity: 1;
  }
 
  .hamActive li {
    margin: 1rem auto 1.25rem;
    width: 4.5rem;
    border-bottom: 2px solid black; 
+   opacity: 1;
+   
  }
 
  .hamActive .hamburger {
