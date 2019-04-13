@@ -44,18 +44,17 @@ header.thePit {
 }
 
 .pdfs {
-    height: 7rem;
-    width: 95%;
+    height: auto;
     margin: 0 auto;
-    text-align: center
 }
 
 .pdfs a {
+    display: block;
+    width: fit-content;
     text-decoration: none;
-    margin: 0 1rem 1rem;
     color: black;
     border-bottom: 1.5px solid black;
-    padding-bottom: .5rem;
+    margin: 1.25rem auto 0;
 }
 
 .pdfs a:hover {
