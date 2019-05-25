@@ -54,7 +54,7 @@ nav {
 }
 
 header .headerContent .waterDrop, .cycle {
-  padding-top: 4rem;
+  padding-top: 7rem;
 }
 
 
@@ -802,11 +802,14 @@ footer .footer_content ul h3 {
    section.two .section_content {
      flex-direction: column;
      height: auto;
-     padding: 0 2rem;
+     padding: 0 1rem;
    }
 
    .my-2 {
      min-width: 200px;
+     width: 22rem;
+     height: 471px;
+     margin: 1.5rem 1rem 2rem;
    }
 
 
