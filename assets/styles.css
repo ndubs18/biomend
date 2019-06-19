@@ -151,20 +151,20 @@ section.one .section_content {
 
 /* SECTION TWO */
 section.two {
-    height: 100vh;
+    height: auto;
     width: 100%;
-    padding: 2.5rem 0rem 4rem;
+    padding: 1.5rem 0rem 2rem;
 }
 
 section.two h1 {
-  margin-bottom: 1.25rem;
+  margin-top: 1.5rem;
 }
 
 section.two .section_content {
     height: 90%;
     width: 100%;
-    margin: 2rem auto;
-    padding: 1.5rem 3rem 1rem;
+    margin: 0 auto;
+    padding: 2rem 3rem 3rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -602,7 +602,7 @@ nav .hamburger {
 /* FOOTER */
 
 footer {
-  height: 17rem;
+
   width: 100%;
   background: rgba(0,0,0,.1);
 
@@ -616,7 +616,7 @@ footer .footer_content {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: flex-start;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
 }
 
 footer .footer_content ul {
@@ -750,7 +750,7 @@ footer .footer_content ul h3 {
  .hamActive {
    display: block;
    text-align: center;
-   margin: 0 auto;
+   margin: 1rem auto;
    opacity: 1;
  }
 
@@ -841,6 +841,43 @@ footer .footer_content ul h3 {
    /* SECTION THREE */
 }
 
+@media only screen and (max-width: 650px) {
+
+  section.two .section_content .my-2 {
+    width: auto;
+    
+  }
+
+  section.two .section_content {
+    margin: 0 auto;
+  }
+
+  section.three {
+    padding: 2rem 1rem .5rem;
+  }
+
+  section.three .section_content{
+    padding: .5rem 2rem;
+  }
+  .footer_content ul.footer_brand{
+    display: none;
+    text-align: center;
+  }
+
+  .footer_content {
+    padding: 1rem;
+
+  }
+
+  .footer_content ul {
+    width: auto;
+  }
+
+  .footer_content ul.contact li, ul.legal li, ul.explore li {
+    margin: 0 auto;
+  }
+
+}
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
